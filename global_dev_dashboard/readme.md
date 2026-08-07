@@ -12,7 +12,7 @@ More than a chart collection, this project demonstrates a full BI workflow — f
 
 ---
 
-## 🔍 The Data Challenge
+## The Data Challenge
 
 The source dataset looked deceptively simple: one flat table, `country` + `date` + 48 economic indicators. But a closer inspection revealed several problems that would have silently corrupted every downstream calculation if left unaddressed:
 
@@ -72,16 +72,20 @@ Rather than defaulting to Power BI's out-of-the-box theme, this dashboard runs o
 
 ## The Four Pages
 
-1. **Global Overview**  the 30-second snapshot: total GDP, inflation, debt, and country coverage as KPI cards, a choropleth map of wealth distribution, a ranked bar chart of the world's largest economies, and a 60+ year world GDP trend line.
+1. **Global Overview**
+The 30-second snapshot: total GDP, inflation, debt, and country coverage as KPI cards, a choropleth map of wealth distribution, a ranked bar chart of the world's largest economies, and a 60+ year world GDP trend line.
 
 ![Global Overview](./screenshots/global_overview1.png)
-2. **Growth & Inflation**  the volatility story: multi-country GDP and inflation trend lines, plus a scatter chart testing the real relationship between inflation and real interest rates, sized by economic weight.
+2. **Growth & Inflation**  
+The volatility story: multi-country GDP and inflation trend lines, plus a scatter chart testing the real relationship between inflation and real interest rates, sized by economic weight.
 
 ![Growth and Inflation](./screenshots/growth_inflation2.png)
-3. **Fiscal Health**  the sustainability story: which governments are running deficits, which are carrying dangerous debt loads (benchmarked against a 60% debt-to-GDP reference line), and whether business-friendly regulation correlates with fiscal discipline.
+3. **Fiscal Health**  
+The sustainability story: which governments are running deficits, which are carrying dangerous debt loads (benchmarked against a 60% debt-to-GDP reference line), and whether business-friendly regulation correlates with fiscal discipline.
 
 ![Fiscal Health](./screenshots/fiscal_health3.png)
-4. **Country Deep-Dive**  a drillthrough page that lets user right-click a country anywhere in the dashboard and land on a fully personalized view: that country's GDP trend, inflation history, spending patterns, and — critically — how it stacks up against the global average, not just in isolation.
+4. **Country Deep-Dive**  
+A drillthrough page that lets user right-click a country anywhere in the dashboard and land on a fully personalized view: that country's GDP trend, inflation history, spending patterns, and — critically — how it stacks up against the global average, not just in isolation.
 
 ![Country Deep Dive](./screenshots/country_deep_dive.png)
 ---
